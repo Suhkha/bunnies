@@ -165,9 +165,83 @@
     height:714px;
 }
 .content__work--column-three{
-    float: left;
+    float: right;
     margin: 0;
     width: 50%;
 }
 
+.content__work--column-one:hover, .content__work--column-two:hover, .content__work--column-three:hover {
+    opacity: .5;
+}
 
+#mogo-footer{
+    margin: 0 0 30px 0;
+    background: #f8f8f8;
+    position: relative;
+    bottom: 0;
+    height: 100px;
+}
+
+.footer{
+    border-bottom: solid 1px #e4e4e4;
+    padding-bottom: 60px;
+}
+
+.footer__title{
+    color: #cccccc;
+    font-weight: 800;
+    text-align: center;
+}
+
+.footer__content{
+    color:#cccccc;
+    margin-right: 30px;
+}
+
+.social__network{
+    border-top: solid 1px #e4e4e4;
+    text-align: center;
+}
+.social__network > span {
+    color:#cccccc;
+    font-style: italic;
+}
+
+.social__network > a > i{
+    color: #aee0d2;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.social__network > a:hover{
+    text-decoration: none;
+
+}
+
+.form__input{
+    border: solid 1px #e6e6e6;
+    font-style: italic;
+    color:#cccccc;
+    padding: 7px;
+    width: 50%;
+}
+
+.form__button--submit{
+    background: #aee0d2;
+    color: #ffffff;
+    border: none;
+    padding: 8px;
+    margin: -4px;
+    width: 30%;
+}
+
+.footer__copyright{
+    color:#cccccc;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer__company, .footer__company:hover{
+    color: #f0dede;
+}
