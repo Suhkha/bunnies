@@ -143,3 +143,31 @@
 .brands__image--default{
     margin: 20px;
 }
+
+#some-of-our-work{
+    padding: 0;
+}
+
+.content__work{
+    padding: 0;
+    display: inline-block;
+}
+.content__work--column-one{
+    float: left;
+    margin: 0;
+    width: 50%;
+}
+
+.content__work--column-two{
+    float: left;
+    margin: 0;
+    width: 50%;
+    height:714px;
+}
+.content__work--column-three{
+    float: left;
+    margin: 0;
+    width: 50%;
+}
+
+
