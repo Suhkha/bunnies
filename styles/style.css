@@ -1,0 +1,33 @@
+.header__banner > img{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;;
+}
+.header__logo{
+    color: #ffffff;
+}
+.header__logo > h3{
+    color: #ffffff;
+}
+.header__menu {
+    padding-top: 10px;
+    float: right;
+}
+
+.menu__item {
+    display: inline-block;
+    padding: 15px;
+}
+
+.active, a:hover {
+    border-bottom: solid 4px #ffca26;
+    padding-bottom: 10px;
+}
+
+.menu__item > a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
