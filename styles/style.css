@@ -1,9 +1,15 @@
-.header__banner > img{
+/*.header__banner > img{
     width: 100%;
     position: absolute;
     left: 0px;
     top: 0px;
     z-index: -1;;
+}*/
+
+.header__banner{
+    width: 100%;
+    height: 995px;
+    background: #000000 url("../images/header__banner.png") 100% no-repeat;
 }
 .header__logo{
     color: #ffffff;
@@ -33,9 +39,9 @@
 }
 
 .header__title{
-    top: 100px;
+    top: 18%;
 }
-.header__title--italic, .header__title--default {
+.header__title--italic, .header__title--default{
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
@@ -43,14 +49,14 @@
 
 .header__title--italic{
     font-style: italic;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .header__title--default{
     font-weight: 800;
-    font-size: 75px;
+    font-size: 100px;
 }
-.divider{
+.header__title--divider{
     border: solid 2px #ffffff;
     width: 4%; 
     margin: 0 0 3% 48%;
@@ -58,9 +64,82 @@
 .header__title--button{
     text-align: center;
 }
-.header__button--link{
+.header__button--link, .header__button--link:hover {
     border: solid 3px #ffffff;
     color: #ffffff;
     text-decoration: none;
     padding: 5px 20px 5px 20px;
+}
+
+#what-we-do{
+    margin: 30px 0 30px 0;
+}
+
+.content__title--italic{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.content__title--default{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;  
+}
+
+.content__default{
+    text-align: center;
+}
+
+.content__title--divider{
+    border: solid 2px #d98080;
+    width: 4%; 
+    margin: 0 0 3% 48%;
+}
+
+.content__images--hover:hover img {
+    opacity: .5;
+}
+
+#counting{
+    margin: 30px 0 5px 0;
+    background: #aee0d2;
+    position: relative;
+}
+
+.counting__title--default{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+}
+
+.counting__info{
+    color: #ffffff;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#for-all-devices{
+    position: relative;
+    width: 100%;
+    height: 917px;
+    background: transparent url("../images/for-all-devices.png") 50% no-repeat;
+}
+
+#for-all-devices > .content__title {
+    margin-top: 90px;
+}
+
+#brands{
+    margin: 30px 0 30px 0;
+    background: #f8f8f8;
+    position: relative;
+}
+
+.brands__image--default{
+    margin: 20px;
 }
